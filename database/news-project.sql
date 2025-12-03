@@ -179,10 +179,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `permission`, `verify_token`, `is_active`, `forgot_token`, `forgot_token_expire`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'onlinenewssite@admin.com', '$2y$10$IN3YIlgIvxiHxdBvNVz/GOm72x2h5aBvV9J2QmsVhLLwkvooKBhbm', 'admin', 'cf408fb6caedd3c8308a21254b1a3cb4a5c8757f7740354104af7b43dfe7bff6', 1, NULL, NULL, '2025-11-12 16:17:46', '2025-11-12 16:31:15'),
-(2, 'trinh', 'trinh123@yahoo.com', '$2y$10$Ns6zdyPb/guRQZNVf7aKFOuT7uPZnPD2O1csarFiOK9Bsw1vd7q5i', 'user', NULL, 1, NULL, NULL, '2025-11-23 23:35:51', '2025-11-05 02:10:50'),
-(3, 'tam', 'tam123@gmail.com', '$2y$10$ZWCn.pbDtnn9kIQsHNIpFujvBgePQUa0z8WOdWAxI8C.ZpeyhS5Be', 'user', NULL, 0, NULL, NULL, '2025-11-06 01:28:40', '2025-11-12 16:13:53'),
-(4, 'tuyen', 'tuyen123@yahoo.com', '$2y$10$y2UFfO2zw08k4urIOccC6eaN4.fxYfFUZhWHeLYYYowFxU9wpEeo2', 'user', NULL, 1, NULL, NULL, '2025-11-27 21:56:13', '2025-11-27 22:18:23');
+(1, 'admin', 'onlinenewssite@admin.com', '$2y$10$IN3YIlgIvxiHxdBvNVz/GOm72x2h5aBvV9J2QmsVhLLwkvooKBhbm', 'admin', 'cf408fb6caedd3c8308a21254b1a3cb4a5c8757f7740354104af7b43dfe7bff6', 1, NULL, NULL, '2025-11-30 16:17:46', '2025-11-30 16:31:15'),
+(2, 'trinh', 'trinh@gmail.com', '$2y$10$Ns6zdyPb/guRQZNVf7aKFOuT7uPZnPD2O1csarFiOK9Bsw1vd7q5i', 'user', NULL, 1, NULL, NULL, '2025-11-23 23:35:51', '2025-11-05 02:10:50'),
+(3, 'tam', 'tam@gmail.com', '$2y$10$ZWCn.pbDtnn9kIQsHNIpFujvBgePQUa0z8WOdWAxI8C.ZpeyhS5Be', 'user', NULL, 0, NULL, NULL, '2025-11-06 01:28:40', '2025-11-12 16:13:53'),
+(4, 'tuyen', 'tuyen@gmail.com', '$2y$10$IN3YIlgIvxiHxdBvNVz/GOm72x2h5aBvV9J2QmsVhLLwkvooKBhbm', 'admin', NULL, 1, NULL, NULL, '2025-11-01 21:56:13', '2025-11-01 22:18:23');
 
 -- --------------------------------------------------------
 
