@@ -334,3 +334,47 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+INSERT INTO `posts` 
+(`id`, `title`, `summary`, `body`, `view`, `user_id`, `cat_id`, `image`, `status`, `selected`, `breaking_news`, `published_at`, `created_at`, `updated_at`) 
+VALUES
+-- 1. AI chạy cục bộ trên điện thoại
+(30,
+'Cuộc đua AI chạy cục bộ trên smartphone đang nóng hơn bao giờ hết',
+'Các hãng smartphone đang cạnh tranh phát triển khả năng chạy mô hình AI trực tiếp trên thiết bị.',
+'Từ cuối năm 2024, xu hướng AI on-device bùng nổ mạnh mẽ khi hàng loạt hãng công bố điện thoại có khả năng chạy mô hình AI lớn trực tiếp trên máy.\r\n\r\nQualcomm, Apple và Samsung đều đã tích hợp NPU (Neural Processing Unit) thế hệ mới, cho phép xử lý mô hình hàng tỷ tham số mà không cần gửi dữ liệu lên đám mây.\r\n\r\nViệc xử lý AI cục bộ giúp tốc độ phản hồi nhanh hơn, bảo mật dữ liệu tốt hơn và tiết kiệm chi phí vận hành cho các công ty.\r\n\r\nDự kiến trong năm 2026, hơn 60% ứng dụng AI phổ biến sẽ có chế độ chạy cục bộ.',
+0, 1, 14, 'public/post-image/2025-01-05-11-00-00.webp', 'enable', 1, 1,
+'2025-01-05 11:00:00', '2025-12-07 16:30:00', NULL),
+
+-- 2. Apple Vision Pro gen 2
+(31,
+'Apple chuẩn bị ra mắt Vision Pro thế hệ 2 với trọng lượng nhẹ hơn 25%',
+'Thiết kế nhẹ hơn và pin gắn sau đầu giúp tăng thời gian sử dụng.',
+'Theo nhiều nguồn tin rò rỉ, Apple đang hoàn tất giai đoạn phát triển Vision Pro thế hệ 2 với hai cải tiến lớn: trọng lượng nhẹ hơn 25% và pin có thể gắn phía sau đầu như hệ VR chuyên nghiệp.\r\n\r\nThiết bị mới dự kiến tập trung nhiều vào AI và khả năng hội thoại thực tế ảo, đồng thời tối ưu cho công việc và giải trí.\r\n\r\nNgoài ra, Apple có thể tung ra phiên bản “Vision Air” với giá dễ tiếp cận hơn nhằm mở rộng thị trường.',
+0, 1, 14, 'public/post-image/2025-01-06-08-20-00.webp', 'enable', 1, 1,
+'2025-01-06 08:20:00', '2025-12-07 16:31:00', NULL),
+
+-- 3. Google ra mắt Gemini 2.0
+(32,
+'Google ra mắt Gemini 2.0: nhanh hơn, rẻ hơn và hỗ trợ lập trình mạnh mẽ',
+'Gemini 2.0 được tối ưu cho phát triển ứng dụng, lập trình và tích hợp sâu vào Android.',
+'Google đã chính thức công bố Gemini 2.0 với khả năng suy luận nhanh hơn 40% ở các tác vụ lập trình và phân tích dữ liệu.\r\n\r\nGemini 2.0 còn hỗ trợ lập trình thời gian thực, phân tích code lỗi, tạo test và mô phỏng API. Điều này biến nó trở thành công cụ mạnh mẽ dành cho lập trình viên.\r\n\r\nGoogle cũng giới thiệu Gemini Nano 2 chạy trực tiếp trên Android, giúp nhiều tác vụ AI hoạt động mà không cần internet.',
+0, 1, 14, 'public/post-image/2025-01-07-09-00-00.webp', 'enable', 1, 1,
+'2025-01-07 09:00:00', '2025-12-07 16:32:00', NULL),
+
+-- 4. Xe điện và pin thể rắn 2025
+(33,
+'Các hãng xe điện tăng tốc chuyển sang pin thể rắn vào cuối năm 2025',
+'Công nghệ pin thể rắn hứa hẹn tăng gấp đôi phạm vi di chuyển và giảm nguy cơ cháy nổ.',
+'Nhiều hãng xe điện lớn như Toyota, BMW và Hyundai đã xác nhận sẽ thử nghiệm xe sử dụng pin thể rắn vào cuối năm 2025.\r\n\r\nPin thể rắn có mật độ năng lượng cao hơn 70% và mức độ an toàn vượt trội so với pin lithium-ion hiện nay.\r\n\r\nNếu thương mại hóa thành công, giá xe điện có thể giảm mạnh nhờ chi phí sản xuất thấp hơn và tuổi thọ pin cao hơn.',
+0, 1, 14, 'public/post-image/2025-01-08-10-00-00.webp', 'enable', 1, 1,
+'2025-01-08 10:00:00', '2025-12-07 16:33:00', NULL),
+
+-- 5. Cybersecurity 2025
+(34,
+'Tấn công mạng tăng 180% trong năm 2025: doanh nghiệp nhỏ là mục tiêu dễ bị tổn thương nhất',
+'Nhiều cuộc tấn công lợi dụng AI để tự động hóa việc dò tìm lỗ hổng.',
+'Báo cáo mới nhất từ các công ty an ninh mạng ghi nhận số vụ tấn công ransomware và lừa đảo trực tuyến tăng 180% so với năm trước.\r\n\r\nĐiểm đáng lo ngại là 65% vụ tấn công nhắm vào doanh nghiệp nhỏ – nhóm vốn ít đầu tư vào bảo mật.\r\n\r\nHacker đang sử dụng công cụ AI để quét lỗ hổng nhanh hơn, viết mã độc tự động và tạo email lừa đảo gần như không thể phân biệt.\r\n\r\nChuyên gia khuyến cáo các doanh nghiệp cần cập nhật hệ thống, kích hoạt xác thực đa lớp và đào tạo nhận diện rủi ro cho nhân viên.',
+0, 1, 14, 'public/post-image/2025-01-09-13-00-00.webp', 'enable', 1, 1,
+'2025-01-09 13:00:00', '2025-12-07 16:34:00', NULL);
+
