@@ -5,25 +5,25 @@
 ?>
 
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h5"><i class="fas fa-newspaper"></i> Articles</h1>
+    <h1 class="h5"><i class="fas fa-newspaper"></i> Bài viết</h1>
     <div class="btn-toolbar mb-2 mb-md-0">
-        <a role="button" href="<?= url('admin/post/create') ?>" class="btn btn-sm btn-success">create</a>
+        <a role="button" href="<?= url('admin/post/create') ?>" class="btn btn-sm btn-success">Tạo bài viết</a>
         </div>
     </div>
     <div class="table-responsive">
         <table class="table table-striped table-sm">
-            <caption>List of posts</caption>
+            <caption>Danh sách bài viết</caption>
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>title</th>
-                    <th>summary</th>
-                    <th>view</th>
+                    <th>Tiêu đề</th>
+                    <th>Tóm tắt</th>
+                    <th>Lượt xem</th>
                     <th>status</th>
                     <th>user ID</th>
                     <th>cat ID</th>
-                    <th>image</th>
-                    <th>setting</th>
+                    <th>Ảnh</th>
+                    <th>Tùy chỉnh</th>
                 </tr>
             </thead>
             <tbody>
@@ -62,21 +62,21 @@
                 <td style="width: 25rem;">
                     <a role="button" class="btn btn-sm btn-warning btn-info text-dark" href="<?= url('admin/post/breaking-news/' . $post['id']) ?>">
                         <?php if($post['breaking_news'] == 2) { ?>
-                   remove breaking news 
+                   Xóa tin tức nổi bật
                    <?php } else { ?>
-                   add breaking news
+                   Thêm tin tức nổi bật
                    <?php } ?>
                         </a>
                         <a role="button" class="btn btn-sm btn-warning btn-warning text-dark" href="<?= url('admin/post/selected/' . $post['id']) ?>">
                         <?php if($post['selected'] == 2) { ?>
-                   remove selcted
+                   Xóa tin đã chọn
                    <?php } else { ?>
-                    add selected
+                     Thêm tin đã chọn
                     <?php } ?>
                         </a>
                         <hr class="my-1" />
-                        <a role="button" class="btn btn-sm btn-primary text-white" href="<?= url('admin/post/edit/' . $post['id']) ?>">edit</a>
-                <a role="button" class="btn btn-sm btn-danger text-white" href="<?= url('admin/post/delete/' . $post['id']) ?>">delete</a>
+                        <a role="button" class="btn btn-sm btn-primary text-white" href="<?= url('admin/post/edit/' . $post['id']) ?>">Cập nhật</a>
+                <a role="button" class="btn btn-sm btn-danger text-white" href="<?= url('admin/post/delete/' . $post['id']) ?>">Xóa</a>
                 </td>
                 </tr>
 

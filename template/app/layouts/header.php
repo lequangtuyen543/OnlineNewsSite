@@ -38,8 +38,8 @@
 
                 <div class="header-top-left no-padding ">
                         <ul>
-                            <li><a href="<?= url('login') ?>"><span class="lnr lnr-enter-down"></span><span style="font-size:15px;">  Login</span></a></li>
-                            <li><a href="<?= url('register') ?>"><span class="lnr lnr-user"></span><span style="font-size:15px;">  Register</span></a></li>
+                            <li><a href="<?= url('login') ?>"><span class="lnr lnr-enter-down"></span><span style="font-size:15px;">  Đăng nhập</span></a></li>
+                            <li><a href="<?= url('register') ?>"><span class="lnr lnr-user"></span><span style="font-size:15px;">  Tạo tài khoản</span></a></li>
 
                         </ul>
                     </div>

@@ -111,7 +111,7 @@ CREATE TABLE `menus` (
 
 INSERT INTO `menus` (`id`, `name`, `url`, `parent_id`, `created_at`, `updated_at`) VALUES
 (9, 'Được xem nhiều nhất', '#', NULL, '2025-07-17 12:05:11', '2025-10-24 11:33:11'),
-(12, 'Về chúng tôi', 'http://localhost/OnlineNewsSite/', NULL, '2025-10-24 14:38:39', NULL),
+(12, 'Về chúng tôi', 'https://www.facebook.com/husc.edu.vn', NULL, '2025-10-24 14:38:39', NULL),
 (13, 'Trang chủ', 'http://localhost/OnlineNewsSite/', NULL, '2025-10-24 14:39:03', NULL);
 
 -- --------------------------------------------------------
