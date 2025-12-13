@@ -41,25 +41,15 @@
     <div class="container-fluid">
         <div class="row">
             <nav class="col-md-2 d-none d-md-block pt-3 bg-sidebar sidebar px-0">
-<<<<<<< HEAD
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin') ?>"><i class="fas fa-home"></i> Dashboard</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/category') ?>"><i class="fas fa-clipboard-list"></i> Category</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/post') ?>"><i class="fas fa-newspaper"></i> Post</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/banner') ?>"><i class="fas fa-image"></i> Banner</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/comment') ?>"><i class="fas fa-comments"></i> Comment</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/menu') ?>"><i class="fas fa-bars"></i> Menus</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/user') ?>"><i class="fas fa-users"></i> User</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/web-setting') ?>"><i class="fas fa-tools"></i> Web Setting</a>
-=======
+
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin') ?>"><i class="fas fa-home"></i> Trang chủ</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/category') ?>"><i class="fas fa-clipboard-list"></i>  Doanh mục</a>
+                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/category') ?>"><i class="fas fa-clipboard-list"></i> Doanh mục</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/post') ?>"><i class="fas fa-newspaper"></i> Bài đăng</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/banner') ?>"><i class="fas fa-image"></i> Banner</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/comment') ?>"><i class="fas fa-comments"></i> Bình luận</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/menu') ?>"><i class="fas fa-bars"></i> Thông tin</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/user') ?>"><i class="fas fa-users"></i> Người dùng</a>
-            <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/web-setting') ?>"><i class="fas fa-tools"></i> Cài đặt Web</a>
->>>>>>> e961c3713c63e67fa419126b2df3aeba4ad5cd22
+                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/web-setting') ?>"><i class="fas fa-tools"></i> Cài đặt Web</a>
             </nav>
 
             <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
