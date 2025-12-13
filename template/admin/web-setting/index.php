@@ -4,32 +4,32 @@ require_once(BASE_PATH . "/template/admin/layouts/head-tag.php");
 
 
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h5 "><i class="fas fa-newspaper"></i> Website Setting</h1>
+        <h1 class="h5 "><i class="fas fa-newspaper"></i> Cài đặt Web</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
-            <a role="button" href="<?= url('admin/web-setting/set') ?>" class="btn btn-sm btn-success">set web setting</a>
+            <a role="button" href="<?= url('admin/web-setting/set') ?>" class="btn btn-sm btn-success">Chỉnh sửa cài đặt Web</a>
         </div>
     </div>
     <section class="table-responsive">
         <table class="table table-striped table-sm">
-            <caption>Website setting</caption>
+            <caption>Cài đặt Web</caption>
             <thead>
                 <tr>
-                    <th>name</th>
-                    <th>value</th>
+                    <th>Tên</th>
+                    <th>Thông tin</th>
                 </tr>
             </thead>
             <tbody>
 
             <tr>
-                <td>title</td>
+                <td>Tiêu đề</td>
                 <td><?= $setting['title']; ?></td>
             </tr>
             <tr>
-                <td>description</td>
+                <td>Mô tả</td>
                 <td><?= $setting['description']; ?></td>
             </tr>
             <tr>
-                <td>key words</td>
+                <td>Từ khóa</td>
                 <td><?= $setting['keywords']; ?></td>
             </tr>
             <tr>

@@ -3,7 +3,7 @@ require_once(BASE_PATH . "/template/admin/layouts/head-tag.php");
 ?>
 
     <section class="pt-3 pb-1 mb-2 border-bottom">
-        <h1 class="h5">Set Web Setting</h1>
+        <h1 class="h5">Chỉnh sửa cài đặt Web</h1>
     </section>
 
 <section class="row my-3">
@@ -11,17 +11,17 @@ require_once(BASE_PATH . "/template/admin/layouts/head-tag.php");
 
         <form method="post" action="<?= url('admin/web-setting/store') ?>" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="title">Title</label>
+                <label for="title">Tiêu đề</label>
                 <input type="text" class="form-control" id="title" name="title" placeholder="Enter title ..." value="<?php if($setting !=null) echo $setting['title']; ?>" autofocus>
             </div>
 
             <div class="form-group">
-                <label for="description">Description</label>
+                <label for="description">Mô tả</label>
                 <input type="text" class="form-control" id="description" name="description" placeholder="Enter title ..." value="<?php if($setting !=null) echo $setting['description']; ?>" autofocus>
             </div>
 
             <div class="form-group">
-                <label for="keywords">Keywords</label>
+                <label for="keywords">Từ khóa</label>
                 <input type="text" class="form-control" id="keywords" name="keywords" placeholder="Enter title ..." value="<?php if($setting !=null) echo $setting['keywords']; ?>" autofocus>
             </div>
 

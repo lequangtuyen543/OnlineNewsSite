@@ -6,14 +6,14 @@ require_once BASE_PATH . '/template/admin/layouts/head-tag.php';
 
 
 <section class="pt-3 pb-1 mb-2 border-bottom">
-        <h1 class="h5">Create Menu</h1>
+        <h1 class="h5">Tạo thông tin</h1>
     </section>
 
 <section class="row my-3">
     <section class="col-12">
         <form method="post" action="<?= url('admin/menu/store') ?>">
                 <div class="form-group">
-                    <label for="name">Name</label>
+                    <label for="name">Tên</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Enter name ..." required>
                 </div>
 
@@ -23,10 +23,10 @@ require_once BASE_PATH . '/template/admin/layouts/head-tag.php';
                 </div>
 
                 <div class="form-group">
-                    <label for="parent_id">parent ID</label>
+                    <label for="parent_id">ID cha</label>
                     <select name="parent_id" id="parent_id" class="form-control" autofocus>
 
-                    <option value="">main menu</option>
+                    <option value="">Trang chủ</option>
 
                     <?php foreach($menus as $menu) { ?>
                         <option value="<?= $menu['id'] ?>">
@@ -38,7 +38,7 @@ require_once BASE_PATH . '/template/admin/layouts/head-tag.php';
                     </select>
         </div>
 
-        <button type="submit" class="btn btn-primary btn-sm">store</button>
+        <button type="submit" class="btn btn-primary btn-sm">Tạo</button>
         </form>
         </section>
         </section>

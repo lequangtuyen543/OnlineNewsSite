@@ -7,7 +7,7 @@
 
 
 <section class="pt-3 pb-1 mb-2 border-bottom">
-    <h1 class="h5">Edit Banner</h1>
+    <h1 class="h5">Chỉnh sửa Banner</h1>
 </section>
 
 <section class="row my-3">
@@ -28,7 +28,7 @@
             <br>
 
 
-            <button type="submit" class="btn btn-primary btn-sm">Update</button>
+            <button type="submit" class="btn btn-primary btn-sm">Cập nhật</button>
         </form>
     </section>
 </section>

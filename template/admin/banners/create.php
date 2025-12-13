@@ -7,7 +7,7 @@
 
 
 <section class="pt-3 pb-1 mb-2 border-bottom">
-    <h1 class="h5">Create Banner</h1>
+    <h1 class="h5">Tạo Banner</h1>
 </section>
 
 <section class="row my-3">
@@ -21,11 +21,11 @@
 
            
             <div class="form-group">
-                <label for="image">Image</label>
+                <label for="image">Ảnh</label>
                 <input type="file" id="image" name="image" class="form-control-file" required autofocus>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-sm">store</button>
+            <button type="submit" class="btn btn-primary btn-sm">Thêm</button>
         </form>
     </section>
 </section>

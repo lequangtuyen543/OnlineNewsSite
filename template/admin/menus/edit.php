@@ -5,7 +5,7 @@ require_once BASE_PATH . '/template/admin/layouts/head-tag.php';
 ?>
 
 <section class="pt-3 pb-1 mb-2 border-bottom">
-        <h1 class="h5">Edit Menu</h1>
+        <h1 class="h5"> Chỉnh sửa thông tin</h1>
 </section>
 
 <section class="row my-3">
@@ -13,7 +13,7 @@ require_once BASE_PATH . '/template/admin/layouts/head-tag.php';
                 <form method="post" action="<?= url('admin/menu/update/' . $menu['id']) ?>">
 
                         <div class="form-group">
-                                <label for="name">Name</label>
+                                <label for="name">Tên</label>
                                 <input type="text" class="form-control" id="name" name="name" value="<?= $menu['name'] ?>" required>
                         </div>
 
@@ -23,10 +23,10 @@ require_once BASE_PATH . '/template/admin/layouts/head-tag.php';
                         </div>
 
                         <div class="form-group">
-                                <label for="parent_id">parent ID</label>
+                                <label for="parent_id">ID cha</label>
                                 <select name="parent_id" id="parent_id" class="form-control" autofocus>
 
-                                        <option value="" <?php if($menu['parent_id'] == '') echo 'selected' ?>>main menu</option>
+                                        <option value="" <?php if($menu['parent_id'] == '') echo 'selected' ?>>Trang chủ</option>
 
                                         <?php foreach($menus as $selectMenu) { ?>
                                                 <?php if ($menu['id'] != $selectMenu['id']) { ?>
@@ -39,7 +39,7 @@ require_once BASE_PATH . '/template/admin/layouts/head-tag.php';
                                 </select>
                         </div>
 
-                        <button type="submit" class="btn btn-primary btn-sm">update</button>
+                        <button type="submit" class="btn btn-primary btn-sm">Chỉnh sửa</button>
                 </form>
         </section>
 </section>
