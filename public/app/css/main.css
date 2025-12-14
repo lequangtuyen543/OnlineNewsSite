@@ -126,7 +126,7 @@ $black			: #222;
 
 *:not(span,
 i) {
-    font-family: Vazir!important;
+    font-family: user-details;
 }
 
 body {
@@ -918,11 +918,11 @@ th {
 /* =================================== */
 
 header {
-    background: #ecf0f1;
+    background: #DDE1FF;
 }
 
 .header-top {
-    background: #04091e;
+    background: #DDE1FF;
     padding: 15px 0px;
 }
 
@@ -942,7 +942,7 @@ header {
 .header-top .header-top-left li a {
     font-weight: 400;
     font-size: 12px;
-    color: #fff;
+    color: #000000;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
@@ -1006,7 +1006,7 @@ header {
 }
 
 .logo-wrap .ads-banner {
-    text-align: right;
+    text-align: left;
 }
 
 @media (max-width: 767px) {
@@ -1022,7 +1022,7 @@ header {
 }
 
 .main-menu {
-    background: #04091e;
+    background: #DDE1FF;
     padding: 15px 20px;
     position: relative;
 }
@@ -1129,12 +1129,14 @@ header {
     padding: 0 8px 0px 8px;
     text-decoration: none;
     display: inline-block;
-    color: #fff;
+    color: #000000;
     font-weight: 900;
     font-size: 14px;
     text-transform: uppercase;
     outline: none;
+
 }
+
 
 .nav-menu>li {
     margin-right: 20px;
@@ -1144,7 +1146,7 @@ header {
     margin: 20px 0 0 0;
     padding: 10px;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    background: #fff;
+    background: rgb(13, 13, 13);
 }
 
 .nav-menu ul li {
@@ -1307,7 +1309,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 700;
     vertical-align: bottom;
     display: inline-block;
-    color: #fff;
+    color: #000000;
 }
 
 .Search .form-control {
@@ -3390,7 +3392,8 @@ div.thumbnail_container .overlay-bg {
 /* =================================== */
 
 .footer-area {
-    background: #04091e;
+    /* Thay nguyên dòng cũ thành dòng này → đẹp đúng như ảnh */
+    background: linear-gradient(61deg, #909AFF 0%, #DDE1FF 100%) ;
 }
 
 @media (max-width: 991px) {
@@ -3413,7 +3416,7 @@ div.thumbnail_container .overlay-bg {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    color: #777777;
+    color: #000000;
 }
 
 .footer-area .single-footer-widget ul li a:hover {
