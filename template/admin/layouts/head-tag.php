@@ -42,8 +42,8 @@
         <div class="row">
             <nav class="col-md-2 d-none d-md-block pt-3 bg-sidebar sidebar px-0">
 
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin') ?>"><i class="fas fa-home"></i> Trang chủ</a>
-                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/category') ?>"><i class="fas fa-clipboard-list"></i> Doanh mục</a>
+                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin') ?>"><i class="fas fa-home"></i> Tổng quan</a>
+                <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/category') ?>"><i class="fas fa-clipboard-list"></i> Danh mục</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/post') ?>"><i class="fas fa-newspaper"></i> Bài viết</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/banner') ?>"><i class="fas fa-image"></i> Banner</a>
                 <a class="text-decoration-none d-block py-1 px-2 mt-1" href="<?= url('admin/comment') ?>"><i class="fas fa-comments"></i> Bình luận</a>

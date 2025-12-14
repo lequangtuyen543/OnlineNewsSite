@@ -6,9 +6,9 @@ require_once(BASE_PATH . "/template/admin/layouts/head-tag.php");
         <div class="col-sm-6 col-lg-3">
             <a href="<?= url('admin/category') ?>" class="text-decoration-none">
                 <div class="card text-white bg-gradiant-green-blue mb-3">
-                    <div class="card-header d-flex justify-content-between align-items-center"><span><i class="fas fa-clipboard-list"></i> Doanh mục</span> <span class="badge badge-pill right"><?= $categoryCount['COUNT(*)']; ?></span></div>
+                    <div class="card-header d-flex justify-content-between align-items-center"><span><i class="fas fa-clipboard-list"></i> Danh mục</span> <span class="badge badge-pill right"><?= $categoryCount['COUNT(*)']; ?></span></div>
                     <div class="card-body">
-                        <section class="font-12 my-0"><i class="fas fa-clipboard-list"></i> Đến doanh mục</section>
+                        <section class="font-12 my-0"><i class="fas fa-clipboard-list"></i> Đến danh mục</section>
                     </div>
                 </div>
             </a>
