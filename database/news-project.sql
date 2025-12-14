@@ -141,18 +141,50 @@ CREATE TABLE `posts` (
 -- Dumping data for table `posts`
 --
 
-INSERT INTO `posts` (`id`, `title`, `summary`, `body`, `view`, `user_id`, `cat_id`, `image`, `status`, `selected`, `breaking_news`, `published_at`, `created_at`, `updated_at`) VALUES
-(10, 'TikTok thất bại trong việc ngăn chặn hầu hết quảng cáo chính trị sai lệch', 'YouTube và Facebook làm tốt hơn trong thử nghiệm.', 'TikTok đã không phát hiện 90% quảng cáo chứa thông tin sai lệch về bầu cử, trong khi YouTube và Facebook xác định và chặn được phần lớn các quảng cáo này, theo kết quả thử nghiệm được thực hiện bởi các nhà nghiên cứu về thông tin sai lệch.\r\n\r\nThử nghiệm do tổ chức Global Witness và nhóm Cybersecurity for Democracy thuộc Trường Kỹ thuật Tandon (ĐH New York) thực hiện, sử dụng các tài khoản giả để gửi 10 quảng cáo bằng tiếng Anh và 10 quảng cáo bằng tiếng Tây Ban Nha lên các nền tảng mạng xã hội. Các nhà nghiên cứu không khai báo rằng đây là quảng cáo chính trị và cũng không thực hiện xác minh danh tính. Họ đã xoá các quảng cáo được chấp nhận trước khi chúng được đăng.\r\n\r\nMỗi quảng cáo đều chứa thông tin sai lệch, như ngày bầu cử không chính xác hoặc thông tin gây hiểu lầm về quy trình bỏ phiếu – những nội dung vi phạm chính sách của Meta (Facebook), Google (YouTube) và TikTok.\r\n\r\nTikTok chỉ từ chối 1 quảng cáo tiếng Anh và 1 quảng cáo tiếng Tây Ban Nha – điều mà các nhà nghiên cứu gọi là “một thất bại lớn”. TikTok đã cấm quảng cáo chính trị từ năm 2019.', 149, 3, 14, 'public/post-image/2022-10-24-18-38-25.webp', 'disable', 1, 1, '2025-01-01 01:00:00', '2025-07-17 12:06:43', '2025-10-24 09:38:25'),
+INSERT INTO `posts`
+(`id`, `title`, `summary`, `body`, `view`, `user_id`, `cat_id`, `image`, `status`, `selected`, `breaking_news`, `published_at`, `created_at`, `updated_at`) VALUES
 
-(11, 'Tesla báo cáo lợi nhuận mạnh trong quý 3 nhờ doanh số tăng vọt', 'Hãng xe điện tăng trưởng nhanh nhưng nhà đầu tư lo ngại doanh số có thể chậm lại vì giá cao và lãi suất tăng.', 'Tesla vừa báo cáo mức tăng lợi nhuận lớn trong quý, khi doanh số xe điện tăng mạnh trong ba tháng kết thúc vào tháng 9.\r\n\r\nHãng xe cho biết họ đạt lợi nhuận 3,3 tỷ USD trong quý 3, tăng từ 1,6 tỷ USD cùng kỳ năm trước. Doanh thu đạt 21,5 tỷ USD, tăng từ 13,8 tỷ USD.\r\n\r\nTesla cho biết đã sản xuất hơn 365.000 xe trong quý 3 (tăng 50% so với năm trước). Tuy nhiên, nhà đầu tư ngày càng lo rằng nhu cầu xe sang của hãng có thể suy yếu.\r\n\r\nTesla bán ít hơn khoảng 20.000 xe so với số lượng sản xuất, và thời gian chờ giao xe giảm xuống. Giá xe tăng cao cùng với lãi suất vay mua xe tăng mạnh khiến người mua khó tiếp cận hơn.\r\n\r\nLợi nhuận quý 3 của hãng thấp hơn kỳ vọng của Phố Wall, khiến cổ phiếu giảm 4% trong phiên giao dịch ngoài giờ.', 56, 1, 14, 'public/post-image/2023-06-12-19-45-55.jpeg', 'disable', 1, 1, '2025-01-01 00:00:00', '2025-07-17 12:07:21', '2025-06-12 23:15:55'),
+(10,
+'Năm 2025: Việt Nam đẩy mạnh chuyển đổi số trong quản lý hành chính',
+'Chuyển đổi số tiếp tục là ưu tiên hàng đầu của Việt Nam trong năm 2025.',
+'Bước sang năm 2025, Việt Nam tiếp tục đẩy mạnh chương trình chuyển đổi số quốc gia nhằm nâng cao hiệu quả quản lý nhà nước và chất lượng dịch vụ công.\r\n\r\nNhiều địa phương đã mở rộng cung cấp dịch vụ công trực tuyến mức độ cao, cho phép người dân thực hiện thủ tục hành chính hoàn toàn trên môi trường số.\r\n\r\nTheo các chuyên gia, chuyển đổi số không chỉ giúp tiết kiệm chi phí mà còn góp phần tăng tính minh bạch và cải thiện trải nghiệm của người dân.',
+149, 3, 14, 'public/post-image/2025-vn-digital.webp', 'enable', 1, 1,
+'2025-01-15 08:00:00', '2025-01-15 08:00:00', '2025-01-15 08:00:00'),
 
-(13, 'Tuần qua trong kinh doanh: Giá cả tiếp tục leo thang', 'Tuần qua trong kinh doanh: Giá cả tiếp tục leo thang', 'Số liệu lạm phát mới công bố hôm thứ Năm đã xoá tan hy vọng rằng Fed sẽ sớm nới lỏng kế hoạch tăng mạnh lãi suất. Chỉ số giá tiêu dùng tăng 8,2% so với cùng kỳ – giảm nhẹ so với tháng trước nhưng vẫn rất cao.\r\n\r\nLạm phát lõi (không tính thực phẩm và nhiên liệu) tăng lên 6,6%. Điều này cho thấy quá trình kiềm chế lạm phát sẽ diễn ra chậm và khó khăn.\r\n\r\nMột số lo ngại lạm phát kéo dài có thể dẫn đến vòng xoáy giá – lương, nơi giá tăng khiến lương tăng, và lương tăng lại đẩy giá lên.\r\n\r\nMột chút tin tốt cho người nghỉ hưu: Cơ quan An sinh Xã hội Mỹ đã thông báo mức tăng phúc lợi 8,7% – mức cao nhất trong hơn 40 năm – để bù lại lạm phát.', 35, 3, 15, 'public/post-image/2022-10-24-18-39-32.webp', 'disable', 1, 1, '2025-01-01 01:00:00', '2025-07-17 12:08:56', '2025-10-24 09:39:32'),
+(11,
+'Kinh tế Việt Nam năm 2025: Doanh nghiệp thận trọng trước biến động toàn cầu',
+'Nhiều doanh nghiệp Việt Nam điều chỉnh chiến lược để thích ứng với thị trường.',
+'Trong bối cảnh kinh tế thế giới còn nhiều biến động, kinh tế Việt Nam năm 2025 được dự báo tăng trưởng ổn định nhưng đối mặt không ít thách thức.\r\n\r\nDoanh nghiệp trong nước đang tập trung kiểm soát chi phí, mở rộng thị trường xuất khẩu và ứng dụng công nghệ để nâng cao năng lực cạnh tranh.\r\n\r\nCác chuyên gia cho rằng chính sách hỗ trợ doanh nghiệp và ổn định kinh tế vĩ mô sẽ đóng vai trò quan trọng trong năm nay.',
+56, 1, 15, 'public/post-image/2025-vn-economy.webp', 'enable', 1, 1,
+'2025-02-10 09:00:00', '2025-02-10 09:00:00', '2025-02-10 09:00:00'),
 
-(15, 'Tay đua F1 không hề “một mình” trong buồng lái', 'Họ mang theo hàng loạt thiết bị bảo hộ để giữ an toàn — và tuyệt đối không được đeo trang sức.', 'Khi một tay đua F1 ngồi vào xe, họ mang theo rất nhiều thiết bị. Hầu hết đều bắt buộc bởi quy định của FIA, từ quần áo chống cháy đến cảm biến sinh học.\r\n\r\nQuần áo, găng tay, tất và giày đều phải chống cháy. “Tất nhiên là các tay đua muốn mặc thoải mái hơn, nhưng không thể,” James Clark từ Puma cho biết.\r\n\r\nĐồ bảo hộ phải che kín từ cổ đến mắt cá chân, có dây kéo để cứu hộ dễ dàng kéo ra ngoài. Một vấn đề lớn là trọng lượng: càng nhẹ càng tốt.\r\n\r\nDưới khí hậu ẩm như Singapore, tay đua có thể mang đến 5 bộ đồ cho cả tuần thi đấu.', 181, 3, 16, 'public/post-image/2022-10-24-18-50-58.webp', 'disable', 2, 2, '2025-01-01 01:00:00', '2025-07-17 12:10:04', '2025-10-24 09:50:58'),
+(13,
+'Giá cả sinh hoạt tại Việt Nam năm 2025 tiếp tục là mối quan tâm lớn',
+'Người dân ưu tiên chi tiêu hợp lý trong bối cảnh giá cả biến động.',
+'Số liệu thống kê đầu năm 2025 cho thấy giá nhiều mặt hàng thiết yếu tại Việt Nam vẫn ở mức cao, đặc biệt là thực phẩm và chi phí sinh hoạt tại các đô thị lớn.\r\n\r\nCác cơ quan chức năng cho biết đang theo dõi sát diễn biến thị trường và triển khai các biện pháp bình ổn giá.\r\n\r\nNgười tiêu dùng được khuyến nghị lập kế hoạch chi tiêu phù hợp để giảm áp lực tài chính.',
+35, 3, 15, 'public/post-image/2025-vn-price.webp', 'enable', 1, 1,
+'2025-03-05 07:30:00', '2025-03-05 07:30:00', '2025-03-05 07:30:00'),
 
-(21, 'Buồn hơn nhưng có khôn ngoan hơn? Có thể không', 'Buồn hơn nhưng có khôn ngoan hơn? Có thể không.', '43 năm trước, hai nhà tâm lý Lauren B. Alloy và Lyn Y. Abramson đã thực hiện một thí nghiệm đơn giản, dẫn tới một ý tưởng mang tính đột phá trong tâm lý học: người trầm cảm có xu hướng đánh giá thấp khả năng kiểm soát thế giới xung quanh họ.', 19, 3, 17, 'public/post-image/2022-10-24-19-01-31.webp', 'disable', 2, 1, '2025-01-01 01:00:00', '2025-06-19 22:37:10', '2025-10-24 16:32:51'),
+(15,
+'Thể thao Việt Nam năm 2025 hướng tới các giải đấu khu vực và quốc tế',
+'Các đội tuyển Việt Nam tích cực chuẩn bị cho lịch thi đấu năm 2025.',
+'Năm 2025, thể thao Việt Nam tập trung chuẩn bị lực lượng cho các giải đấu quan trọng trong khu vực và quốc tế.\r\n\r\nNhiều vận động viên trẻ được tạo điều kiện cọ xát, tích lũy kinh nghiệm thi đấu nhằm nâng cao thành tích.\r\n\r\nNgành thể thao đặt mục tiêu cải thiện thành tích, đồng thời thúc đẩy phong trào rèn luyện thể chất trong cộng đồng.',
+181, 3, 16, 'public/post-image/2025-vn-sport.webp', 'enable', 2, 2,
+'2025-04-20 10:00:00', '2025-04-20 10:00:00', '2025-04-20 10:00:00'),
 
-(22, 'Đua xe F1 thường được quyết định bằng… lốp xe', 'Việc chọn đúng loại lốp — mềm, trung bình hoặc cứng — có thể biến kẻ thua thành người thắng.', 'Các đội F1 bỏ ra hàng triệu USD để phát triển xe, nhưng đôi khi chính chiến lược về lốp mới là yếu tố quyết định.\r\n\r\n“Từ trước sự kiện, chúng tôi chạy khoảng 100.000 mô phỏng với nhiều chiến lược khác nhau,” Bernadette Collins, cựu trưởng bộ phận chiến lược Aston Martin cho biết.\r\n\r\nTrong thực tế, các đội sẽ phân tích điều kiện đường đua, thời tiết và cả đối thủ để đưa ra lựa chọn tối ưu nhất.', 65, 3, 16, 'public/post-image/2022-10-24-19-27-44.webp', 'disable', 2, 1, '2025-01-01 01:00:00', '2025-06-19 22:37:55', '2025-10-24 10:27:44');
+(21,
+'Giáo dục Việt Nam năm 2025 chú trọng kỹ năng số và đổi mới chương trình',
+'Ngành giáo dục đẩy mạnh đào tạo kỹ năng phù hợp với thời đại số.',
+'Năm 2025, giáo dục Việt Nam tiếp tục đổi mới chương trình giảng dạy theo hướng tăng cường kỹ năng số và tư duy sáng tạo cho học sinh, sinh viên.\r\n\r\nNhiều trường học áp dụng mô hình học tập kết hợp giữa trực tiếp và trực tuyến.\r\n\r\nCác chuyên gia cho rằng việc đổi mới giáo dục là nền tảng quan trọng cho phát triển nguồn nhân lực chất lượng cao.',
+19, 3, 17, 'public/post-image/2025-vn-education.webp', 'enable', 2, 1,
+'2025-05-10 08:30:00', '2025-05-10 08:30:00', '2025-05-10 08:30:00'),
+
+(22,
+'Doannh thu ngành du lịch Việt Nam năm 2025 phục hồi mạnh mẽ',
+'Ngành du lịch ghi nhận nhiều tín hiệu tích cực trong năm 2025.',
+'Năm 2025, du lịch Việt Nam tiếp tục phục hồi mạnh mẽ với lượng khách quốc tế và nội địa tăng so với các năm trước.\r\n\r\nNhiều địa phương tập trung phát triển sản phẩm du lịch xanh, bền vững và trải nghiệm văn hóa.\r\n\r\nNgành du lịch kỳ vọng sẽ đóng góp tích cực vào tăng trưởng kinh tế và tạo thêm nhiều việc làm.',
+65, 3, 15, 'public/post-image/2025-vn-tourism.webp', 'enable', 2, 1,
+'2025-06-05 09:00:00', '2025-06-05 09:00:00', '2025-06-05 09:00:00');
 
 -- --------------------------------------------------------
 
